@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+:root {
+  height: 100%;
+}
+
+.background {
+  background-image: url("../public/images/bg-chat.jpeg");
+  background-repeat: no-repeat;
+}
+.border-siderBar{
+  border-right: 2px solid white;
+  
+}
